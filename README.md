@@ -66,7 +66,7 @@ POST /empleados
 GET /empleados
 ```
 Resultado esperado: La lista completa de los empleados
-
+```json
     {
         "claveEmpleado": "FOCO96050832",
         "nombres": "Omar Flores",
@@ -109,8 +109,8 @@ Resultado esperado: La lista completa de los empleados
                 "pais": "México"
             }
         }.......
----
 
+```
 ### 📌 Modificar el puesto de un empleado
 ```http
 PATCH /empleados/{claveEmpleado}/puesto
