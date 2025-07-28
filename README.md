@@ -19,7 +19,7 @@ Este proyecto es un sistema de gestión para registrar empleados, su dirección 
 
 1. **Clona el repositorio** (si aplica):
    ```bash
-   git clone https://github.com/tu-usuario/gestion-empleados.git
+   git clone https://github.com/OmarFC08/GestionEmpleadosOrdenaris
    cd gestion-empleados
    ```
 
