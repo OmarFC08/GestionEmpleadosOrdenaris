@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "0ce76832-f9e4-40e2-ba52-1af440eb0701",
+		"name": "ORDENARIS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45779620",
+		"_collection_link": "https://omarflores-6972112.postman.co/workspace/Omar-Flores's-Workspace~8e654d21-e9af-4b82-873d-988cf4abc343/collection/45779620-0ce76832-f9e4-40e2-ba52-1af440eb0701?action=share&source=collection_link&creator=45779620"
+	},
+	"item": [
+		{
+			"name": "RegistarEmpleado",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombres\": \"Fernando\",\r\n    \"apellidos\": \"Martinez Martinez\",\r\n    \"curp\": \"MAMF000205HMCRRRA2\",\r\n    \"puesto\": \"Desarollador\",\r\n    \"claveJefe\": \"FOCO96050832\",\r\n\r\n    \"calle\": \"Av. Matamoros\",\r\n    \"noExterior\": \"13\",\r\n    \"noInterior\": \"\",\r\n    \"colonia\": \"Centro\",\r\n    \"municipio\": \"Cuauhtémoc\",\r\n    \"estado\": \"CDMX\",\r\n    \"pais\": \"México\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/empleados"
+			},
+			"response": []
+		},
+		{
+			"name": "ListarEmpleados",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/empleados"
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarPuesto",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"puesto\":\"Arquitecto de Software\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/empleados/FOCO96050832/puesto"
+			},
+			"response": []
+		},
+		{
+			"name": "JerarquiasEmpleados",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/empleados/jerarquia"
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarJefe",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"claveJefe\":\"HEMM95071270\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/empleados/CARL85010155/jefe"
+			},
+			"response": []
+		}
+	]
+}

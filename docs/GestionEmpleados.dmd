@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GestionEmpleados" id="119A44D7-784E-5B73-3AF3-79EC2E3D1CB2" version="3.5">
+<createdBy>omarf</createdBy>
+<createdTime>2025-07-27 02:18:12 UTC</createdTime>
+<ownerDesignName>GestionEmpleados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>119A44D7-784E-5B73-3AF3-79EC2E3D1CB2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C052AABD-6D2F-0511-3B8B-B30598011DA8">
+<designStoragePath>G:\GestionEmpleados</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
