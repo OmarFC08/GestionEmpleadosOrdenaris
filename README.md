@@ -67,7 +67,6 @@ GET /empleados
 ```
 Resultado esperado: La lista completa de los empleados
 
-[
     {
         "claveEmpleado": "FOCO96050832",
         "nombres": "Omar Flores",
